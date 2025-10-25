@@ -1,0 +1,12 @@
+app:
+  name: retail_analysis
+  master: local[*]
+
+paths:
+  raw: data/raw
+  processed: data/processed
+  outputs: data/outputs
+  reports: reports
+
+spark:
+  shuffle_partitions: 8
